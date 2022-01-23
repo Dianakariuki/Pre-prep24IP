@@ -54,7 +54,7 @@
         background-color: white;
         display: flex;
         flex-direction: row;
-        float: right;
+        float:right;
     }
     /* Change the color of links on hover */
     
@@ -181,6 +181,7 @@
     .section-5{
         display: flex;
         background-color: rgb(202, 120, 13);
+        background-size: 70%;
         height: 60vh;
         width: 100vw !important;
         justify-content: center;
@@ -194,5 +195,58 @@
     }
     .mobile1,.mobile2{
         height: 40px;
-width: 50px;
-    }
+width: 50px;}
+/*
+.b-logo2 {
+    position: absolute;
+    left: 200px;
+    top: 3720px;
+}*/
+.search-bar {
+    position: absolute;
+    left: 800px;
+    top: 3800px;
+}
+.email {
+    position: absolute;
+    left: 800px;
+    top: 3720px;
+}
+.copyright {
+    position: absolute;
+    left: 120px;
+    top: 3850px
+}
+.designer {
+    position: absolute;
+    left: 840px;
+    top: 3850px;
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 360px;
+    top: 3700px;
+}
+.get-in-touch {
+    position: absolute;
+    top: 3860px;
+    right: 580px;
+}
+.i{
+    height: auto; 
+    width: auto; 
+    max-width: 16px; 
+    max-height: 16px;
+}
+.Price {
+position: relative;
+font-size: 16px;
+font-weight: 700;
+}
+.phone-1,.phone-2{
+    height: 200px;
+    width: 100px;
+}
