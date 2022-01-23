@@ -3,8 +3,7 @@
         font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
         flex-direction: column;
     }
-    .align-page {
-        align-items: center;
+    
     }
     * {
         box-sizing: border-box;
