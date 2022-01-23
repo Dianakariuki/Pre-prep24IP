@@ -156,3 +156,40 @@
         justify-content: center;
         justify-content: space-between;
     }
+
+    .section-4 {
+        display: flex;
+        width: 90vw;
+        height: 40vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo-section4{
+        height: 550px;
+        width: 550px;
+    }
+    .advert{
+        font-size: 75px;
+        color: cadetblue;
+    }
+    .ad-content{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .text-content{
+        margin-right: 40px !important;
+    }
+    .section-5{
+        display: flex;
+        background-color: rgb(202, 120, 13);
+        height: 60vh;
+        width: 100vw !important;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 150px 0 150px;
+    }
+    .description p {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
