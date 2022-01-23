@@ -60,6 +60,8 @@
         text-align: right;
     }
     /* Change the color of links on hover */
+    em {
+        color: #F6B400;}
     
     .order-now {
         width: 100px;
@@ -261,3 +263,14 @@ font-weight: 700;
         max-height: 250px;
         float:calc();
 }
+.Price{
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    }
+    .amount1 {
+        background-color:  #E1EBE6;
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 30px;
+    }
