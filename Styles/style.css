@@ -3,7 +3,9 @@
         font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
         flex-direction: column;
     }
-    
+    .align-page {
+        align-items: center;
+    }
     * {
         box-sizing: border-box;
     }
@@ -46,6 +48,7 @@
         align-content: flex-end;
         margin-left: 70px;
         background: linear-gradient(105deg, white 50%, #F6B400 0%);
+        background-color: #F6B400;
     }
     
     .topnav {
@@ -249,4 +252,11 @@ font-weight: 700;
 .phone-1,.phone-2{
     height: 200px;
     width: 100px;
+}
+.pic{
+    height: auto;
+        width: auto;
+        max-width: 250px;
+        max-height: 250px;
+        float:calc();
 }
