@@ -39,7 +39,7 @@
     
     .section-1 {
         width: 100%;
-        height: 600px;
+        height: 700px;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -49,20 +49,32 @@
         background: linear-gradient(105deg, #ffffff 50%, #F6B400 0%);
         background-color: #F6B400;
     }
-    
+    .banner-area{
+        position: absolute;
+        top: 30%;
+
+    }
     .topnav {
         width: 100%;
         height: 50px;
-        background-color: white;
         display: flex;
         flex-direction: row;
-        float:right;
-        text-align: right;
+       text-align: right;
+       position: absolute;
+       top: 0.5%;
+       padding-top: 20px;
+       left: 40%;
     }
     /* Change the color of links on hover */
-    em {
-        color: #F6B400;}
-    
+
+        .logo {
+            float: left;
+        padding-top: 20px;
+            position:absolute;
+            font-weight: 800;
+            top: 0.2%;
+            font-size: 30px;
+        }
     .order-now {
         width: 100px;
         height: 40px;
@@ -148,12 +160,7 @@
         box-shadow: 1px 1px 1px 1px;
     }
     
-    .logo {
-        text-align: left;
-        padding-top: 25px;
-        position: relative;
-        font-weight: 800;
-    }
+
     
     .cards-section {
         padding: 10px;
@@ -259,9 +266,12 @@ font-weight: 700;
 .pic{
     height: auto;
         width: auto;
-        max-width: 250px;
-        max-height: 250px;
+        max-width: 350px;
+        max-height: 350px;
         float:calc();
+        position: absolute;
+        left: 50%;
+        
 }
 .Price{
     position: relative;
