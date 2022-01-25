@@ -1,9 +1,10 @@
 ### Burger Project
 
-## Folder Structure
-In this Project, I have a folder 'Styles' which contains css files.
-
-Since it's a single page, I decided to have everything in index.html
-
-### View My page
-In order to be able to view my page, you need to open index.html in any browser.
+#### version v1.0.3
+### By Diana Kariuki
+## Description 
+this a food ordering website 
+## Setup/ installation
+*click on the link on the About section
+# License
+Copyright (c) 2022 [Click to view licence](LICENCE)
