@@ -24,11 +24,24 @@
         flex-flow: nowrap;
         align-content: flex-start;
         justify-content: space-between;
+
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        margin: 0 30px 0 30px;
+        flex-wrap: wrap;
+        border: 2px solid black;
+        border-radius: 12px;
+        padding:5px;
+    
+
     }
     
-    .wrapper-1,
-    .wrapper-2,
-    .wrapper-3 {
+    .wrapper-1{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -40,6 +53,7 @@
         border-radius: 12px;
         padding:5px
     }
+    
     /* Style the links inside the navigation bar */
     
     .section-1 {
@@ -53,6 +67,12 @@
         margin-left: 70px;
         background: linear-gradient(105deg, #ffffff 50%, #F6B400 0%);
         background-color: #F6B400;
+    }
+  
+    .card img {
+        height: 100px;
+        width: 100px;
+        
     }
     
     .banner-area {
@@ -336,10 +356,16 @@
     .icon {
         height: 30px;
         width: 30px;
+        clear:left;
+        position: relative;
     }
     .phone-1,.phone-2{
         height: 200px;
         width: 100px;
        
     }
-    
+    /* .card{
+        display: flex;
+        flex-direction: column;
+        
+    } */
