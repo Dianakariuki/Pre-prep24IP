@@ -4,7 +4,6 @@
         flex-direction: column;
     }
     
-
     * {
         box-sizing: border-box;
     }
@@ -49,32 +48,34 @@
         background: linear-gradient(105deg, #ffffff 50%, #F6B400 0%);
         background-color: #F6B400;
     }
-    .banner-area{
+    
+    .banner-area {
         position: absolute;
         top: 30%;
-
     }
+    
     .topnav {
         width: 100%;
         height: 50px;
         display: flex;
         flex-direction: row;
-       text-align: right;
-       position: absolute;
-       top: 0.5%;
-       padding-top: 20px;
-       left: 40%;
+        text-align: right;
+        position: absolute;
+        top: 0.5%;
+        padding-top: 20px;
+        left: 40%;
     }
     /* Change the color of links on hover */
-
-        .logo {
-            float: left;
+    
+    .logo {
+        float: left;
         padding-top: 20px;
-            position:absolute;
-            font-weight: 800;
-            top: 0.2%;
-            font-size: 30px;
-        }
+        position: absolute;
+        font-weight: 800;
+        top: 0.2%;
+        font-size: 30px;
+    }
+    
     .order-now {
         width: 100px;
         height: 40px;
@@ -119,7 +120,6 @@
         padding-top: 25px;
         padding-right: 30px;
         padding-left: 30px
-        
     }
     
     .About {
@@ -160,8 +160,6 @@
         box-shadow: 1px 1px 1px 1px;
     }
     
-
-    
     .cards-section {
         padding: 10px;
         display: flex;
@@ -169,7 +167,7 @@
         justify-content: center;
         justify-content: space-between;
     }
-
+    
     .section-4 {
         display: flex;
         width: 90vw;
@@ -177,21 +175,26 @@
         justify-content: center;
         align-items: center;
     }
-    .photo-section4{
+    
+    .photo-section4 {
         height: 550px;
         width: 550px;
     }
-    .advert{
+    
+    .advert {
         font-size: 75px;
         color: cadetblue;
     }
-    .ad-content{
+    
+    .ad-content {
         font-family: 'Courier New', Courier, monospace;
     }
-    .text-content{
+    
+    .text-content {
         margin-right: 40px !important;
     }
-    .section-5{
+    
+    .section-5 {
         display: flex;
         background-color: rgb(202, 120, 13);
         background-size: 70%;
@@ -202,87 +205,104 @@
         justify-content: space-between;
         padding: 0 150px 0 150px;
     }
+    
     .description p {
         font-size: 50px;
         font-weight: 900;
     }
-    .mobile1,.mobile2{
+    
+    .mobile1,
+    .mobile2 {
         height: 40px;
-width: 50px;}
-/*
+        width: 50px;
+    }
+    /*
 .b-logo2 {
     position: absolute;
     left: 200px;
     top: 3720px;
 }*/
-.search-bar {
-    position: absolute;
-    left: 800px;
-}
-.email {
-    position: absolute;
-    left: 800px;
-}
-.copyright {
-    position: absolute;
-    left: 800px;
-}
-.designer {
-    position: absolute;
-    left: 840px;
-}
-
-.flex-content {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 360px;
-}
-.get-in-touch {
-    position: absolute;
-    right: 580px;
-}
-.i{
-    height: auto; 
-    width: auto; 
-    max-width: 16px; 
-    max-height: 16px;
-}
-.Price {
-position: relative;
-font-size: 16px;
-font-weight: 700;
-}
-.phone-1,.phone-2{
-    height: 200px;
-    width: 100px;
-}
-.pic{
-    height: auto;
+    
+    .search-bar {
+        position: absolute;
+        left: 800px;
+    }
+    
+    .email {
+        position: absolute;
+        left: 800px;
+    }
+    
+    .copyright {
+        position: absolute;
+        left: 800px;
+    }
+    
+    .designer {
+        position: absolute;
+        left: 840px;
+    }
+    
+    .flex-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 360px;
+    }
+    
+    .get-in-touch {
+        position: absolute;
+        right: 580px;
+    }
+    
+    .i {
+        height: auto;
         width: auto;
-        max-width: 350px;
-        max-height: 350px;
-        float:calc();
+        max-width: 16px;
+        max-height: 16px;
+    }
+    
+    .Price {
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .phone-1,
+    .phone-2 {
+        height: 200px;
+        width: 100px;
+    }
+    
+    .pic {
+        height: auto;
+        width: auto;
+        max-width: 400px;
+        max-height: 400px;
+        float: calc();
         position: absolute;
         left: 50%;
-        
-}
-.Price{
-    position: relative;
-    font-size: 16px;
-    font-weight: 700;
     }
+    
+    .Price {
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
     .amount1 {
-        background-color:  #E1EBE6;
+        background-color: #E1EBE6;
         font-size: 15px;
         padding: 4px;
         border-radius: 30px;
     }
-        #section-6{
-height: 350px;
-width: 100%;
-     }
-     .icon {
-         height: 30px;
-         width: 30px;
-     }
+    
+    #section-6 {
+        height: 350px;
+        width: 100%;
+    }
+    
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
