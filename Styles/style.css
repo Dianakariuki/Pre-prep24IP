@@ -214,8 +214,11 @@
     
     .mobile1,
     .mobile2 {
-        height: 40px;
-        width: 50px;
+        height: 100px;
+        width: 200px;
+        border: 2px;
+        border-radius: 8px;
+        padding: 5px;
     }
     /*
 .b-logo2 {
@@ -276,8 +279,11 @@
     
     .phone-1,
     .phone-2 {
-        height: 200px;
-        width: 100px;
+        height: 400px;
+        width: 200px;
+        border-radius: 2px solid white;
+        border-radius:12px;
+
     }
     
     .pic {
